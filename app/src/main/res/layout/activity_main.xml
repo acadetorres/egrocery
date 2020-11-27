@@ -7,6 +7,7 @@
     tools:context=".MainActivity"
     >
 
+
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
@@ -102,6 +103,7 @@
                 android:layout_marginBottom="10dp"
                 >
                 <LinearLayout
+                    android:id="@+id/item1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -109,6 +111,7 @@
                         android:layout_width="100dp"
                         android:layout_height="114dp"
                         android:src="@drawable/item1"
+                        android:onClick="showProduct"
                         />
 
                     <TextView
